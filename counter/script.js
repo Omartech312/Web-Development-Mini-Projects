@@ -7,17 +7,17 @@ const subtract = document.getElementById("minus");
 let count = 0;
 
 // When the buttons are clicked the counter gets ++, -- or reset back to 0 and the id="count" in HTML gets update
-reset.onclick = function(){
+reset.onclick = function() {
     count = 0;
     document.getElementById("count").textContent = count;
 }
 
-add.onclick = function(){
+add.onclick = function() {
     count++;
     document.getElementById("count").textContent = count;
 }
 
-subtract.onclick = function(){
+subtract.onclick = function() {
     count--;
     document.getElementById("count").textContent = count;
 }
