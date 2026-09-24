@@ -7,3 +7,15 @@ body {
 h1{
     color: skyblue;
 }
+
+#container{
+    height: 90vh;
+    border-radius: 5px;
+    width: 95vw;
+    margin-left: 1.5vw;
+    background-color: rgba(169, 169, 169, 0.087);
+}
+
+input{
+    margin-bottom: 8px;
+}
