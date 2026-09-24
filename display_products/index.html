@@ -18,7 +18,8 @@
         <input id="Pname" type="text" placeholder="Milk" required /> <br>
 
         <label for="Pprice">Product Price:</label>
-        <input id="Pprice" type="number" placeholder="20" required /> <br>
+        <!-- Step is needed for floating numbers otherwise it will only accept INT-->
+        <input id="Pprice" type="number" step="any" placeholder="20" required /> <br>
 
         <label for="Pquantity">Product Quantity:</label>
         <input id="Pquantity" type="number" placeholder="12" required /> <br>
