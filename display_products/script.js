@@ -38,7 +38,7 @@ function displayProduct(Object, index, array){
     document.getElementById("container").innerHTML += `
     <div class="product">
     <p>${Object.name}</p>
-    <button onclick="remove(${index})">X</button>
+    <button class="removeB" onclick="remove(${index})">X</button>
     <p>${Object.quantity} ${Object.unit}</p>
     ${imageURL ? `<img src="${imageURL}" class="productImage">` : ""} 
     <p>$${Object.price}</p>

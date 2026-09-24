@@ -40,3 +40,9 @@ input{
     margin-bottom: 8px;
 }
 
+.removeB{
+    color: red;
+    border-color: transparent;
+    background-color: transparent;
+    position: absolute;
+}
