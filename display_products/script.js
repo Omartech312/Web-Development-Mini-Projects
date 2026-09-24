@@ -30,7 +30,7 @@ document.getElementById("Psubmit").addEventListener("click", () =>{
 });
 
 
-function displayProduct(Object){
+function displayProduct(Object, index, array){
     let imageURL = "";
     if(Object.image){
         imageURL = URL.createObjectURL(Object.image);
@@ -38,10 +38,17 @@ function displayProduct(Object){
     document.getElementById("container").innerHTML += `
     <div class="product">
     <p>${Object.name}</p>
+    <button onclick="remove(${index})">X</button>
     <p>${Object.quantity} ${Object.unit}</p>
     ${imageURL ? `<img src="${imageURL}" class="productImage">` : ""} 
     <p>$${Object.price}</p>
     
     </div>
     `;
+}
+
+function remove(index){
+    ProductList.splice(index, 1);
+    document.getElementById("container").innerHTML = "";
+    ProductList.forEach(displayProduct);
 }
