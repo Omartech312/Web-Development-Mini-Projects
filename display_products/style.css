@@ -14,8 +14,29 @@ h1{
     width: 95vw;
     margin-left: 1.5vw;
     background-color: rgba(169, 169, 169, 0.087);
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.product{
+    width: 200px;
+    height: 250px;
+
+    background-color: azure;
+    color: black;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+.productImage{
+    width: 150px;
+    height: 120px;
+    object-fit: cover;
 }
 
 input{
     margin-bottom: 8px;
 }
+
