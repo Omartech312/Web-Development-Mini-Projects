@@ -13,7 +13,7 @@ export function Page(){
       background.style.backgroundColor = color;
       currentColor.style.color = color;
     }
-    console.log(color);
+    //console.log(color);
   }
 
   return(
