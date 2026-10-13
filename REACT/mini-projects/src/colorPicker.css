@@ -1,0 +1,10 @@
+.background{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    border: 5px solid rgb(0, 0, 0);
+    background-color: rgb(202, 202, 202);
+    color: white;
+    text-shadow: -2px -2px 2px black, 2px 2px 2px black;
+}
